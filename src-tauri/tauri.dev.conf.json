@@ -1,0 +1,12 @@
+{
+  "identifier": "org.weisssolutions.lore.dev",
+  "app": {
+    "windows": [
+      {
+        "title": "Lore Dev",
+        "width": 800,
+        "height": 600
+      }
+    ]
+  }
+}

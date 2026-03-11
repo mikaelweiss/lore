@@ -9,7 +9,13 @@
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "tauri": "tauri"
+    "tauri": "tauri",
+    "dev:desktop": "tauri dev --config src-tauri/tauri.dev.conf.json",
+    "dev:ios": "tauri ios dev --config src-tauri/tauri.ios.dev.conf.json",
+    "dev:ios:simulator": "tauri ios dev --config src-tauri/tauri.ios.dev.conf.json 'iPhone 17 Pro'",
+    "dev:android": "tauri android dev",
+    "build:ios": "tauri ios build",
+    "build:android": "tauri android build"
   },
   "license": "MIT",
   "dependencies": {
